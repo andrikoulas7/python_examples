@@ -1,0 +1,108 @@
+#gia na ftia3w mia function xrisimopoio to 'def'
+def Addition(num1,num2):
+    #sum = num1 + num2
+    #ean thelw auto pou epistrefei i function na to anathesw ws timi se mia metabliti, vazw to return
+    return(num1+num2)
+
+#to apotelesma ths function paei sto sum
+sum = Addition(54,26)
+
+#to emfanizw
+print(sum)
+
+#in-built functions
+"""
+abs(): gia apoluti timi
+bool(): ean parametros einai to 0 epistrefei false,diaforetika true
+dir(): ean dwsw ena string epistrefei oles tis function pou sxetizontai me to String, ti mporw na kanw me auto
+help(var_name.function): perigrafei ti 8a kanei h function sti var pou edwsa
+eval()
+exec()
+float()
+str()
+int()
+
+class Person:
+    pass
+p  = Person()
+p
+<__main__.Person object at 0x7f5955ea8198>
+class Person:
+    def getName(self):
+        print("Avi")
+    def getAge(self):
+        print("16")
+        
+p = Person()
+p.getName()
+Avi
+p.getAge()
+16
+Person.getAge(p)
+16
+
+*OOP*
+class Person:
+    def __init__(self, name, age):        
+        self.name = name
+        self.age = age
+    def getName(self):
+        print("Your name is " + self.name)
+    def getAge(self):
+        print("Your age is " + self.age)
+        
+p1 = Person("Bob","22")
+p1.getAge()
+Your age is 22
+p1.getName()
+Your name is Bob
+**
+
+**inheritance**
+class Parent:
+    def __init__(self):
+        print("This is the parent class")
+    def parentFunc(self):
+        print("This is the parent func")
+        
+p = Parent()
+This is the parent class
+p.parentFunc()
+This is the parent func
+class Child(Parent):
+    def __init__(self):
+        print("This is the child class")
+    def childFunc(self):
+        print("This is the child function")
+        
+c = Child()
+This is the child class
+c.childFunc()
+This is the child function
+c.parentFunc()
+This is the parent func
+class Parent:
+    def __init__(self):
+        pass
+    def test(self):
+        print("parent")
+        
+p = Parent()
+p.test()
+parent
+class Child(Parent):
+    def __init__(self):
+        pass
+    def test(self):
+        print("child")
+        
+c = child()
+Traceback (most recent call last):
+  File "<input>", line 1, in <module>
+NameError: name 'child' is not defined
+c = Child()
+c.test()
+child
+****
+
+"""
